@@ -13,7 +13,7 @@ module.exports = async function (context, req, inputDocument) {
     if(inputDocument.length != 0)
     {
         const itemBody = inputDocument[0];
-        await client.database(databaseName).container(collectionName).item(itemBody.id).delete()
+        await client.database(databaseName).container(collectionName).item(itemBody.id, itemBody.author).delete()
         .then((status) => { 
             context.res = {
                 // status: 200, /* Defaults to 200 */
