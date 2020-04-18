@@ -1,2 +1,4 @@
-# azure-functions-rest-api
-REST api using Azure functions to perform CRUD (Create, Read, Update, Delete) on Cosmos DB.
+# Azure Functions REST API
+
+## Explanation
+This demo is part of a course *Azure Functions Masterclass* on [Cloudshikshak.com](https://cloudshikshak.com)
