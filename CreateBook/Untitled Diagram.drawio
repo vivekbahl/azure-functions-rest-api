@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T16:09:14.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.6" etag="62mZ2KidSmHxrxDtZACa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T16:17:24.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="tjprQCKxlyf2R62VrFdG" version="21.6.6" type="github">
   <diagram name="Page-1" id="SgKMpphEfs1q-WgxNBbC">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-1" value="Tenant-Tailwind Traders&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-2" value="ManagementGroup-Tailwind Traders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-3" value="Product Development" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-4" value="Marketing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-5" value="Sales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-6" value="Subscription-Dev-Testing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-7" value="Subscription-Production" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-8" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hl2dnluvHD5HHpCaYDxJ-9" target="hl2dnluvHD5HHpCaYDxJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-9" value="Application of Policy enforcing VM sizing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="430" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hl2dnluvHD5HHpCaYDxJ-10" target="hl2dnluvHD5HHpCaYDxJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hl2dnluvHD5HHpCaYDxJ-10" value="Application of Policy enforcing VM naming to specify proj name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="155" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
